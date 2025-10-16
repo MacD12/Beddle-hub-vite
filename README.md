@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# 🏨 Beddle Hub — The Hospitality OS
 
-## Project info
+**Beddle Hub** is a next‑generation, luxury‑grade digital ecosystem designed for the **hospitality, hotel, and tourism** industry. We empower businesses to manage everything — from bookings to operations — in one seamless, visually refined platform.
 
-**URL**: https://lovable.dev/projects/4c958549-64ac-49d3-bc1e-5a1497aa9af7
+---
 
-## How can I edit this code?
+## ✨ About
 
-There are several ways of editing your application.
+Beddle Hub provides a **complete operating system** for hospitality businesses:
 
-**Use Lovable**
+* **Channel Manager** — Sync rates and availability across OTAs (Booking.com, Airbnb, Hostelworld).
+* **Property & Restaurant Management** — Daily ops, revenue, inventory, housekeeping, and POS.
+* **Surf School & Experiences** — Lessons, activities, tours, and add‑ons in a single flow.
+* **Staff & HR Tools** — Roles, shifts, performance, and payroll‑ready exports.
+* **Custom Websites & Booking Engines** — Conversion‑optimized sites that elevate your brand.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4c958549-64ac-49d3-bc1e-5a1497aa9af7) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💡 Mission
 
-**Use your preferred IDE**
+To **elevate hospitality through technology** — giving every brand the sophistication and automation once reserved for global chains.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🌍 Why Beddle Hub
 
-Follow these steps:
+* Crafted for **luxury and simplicity**
+* Designed to **amplify guest experiences**
+* Built to **save time, cut costs, and grow revenue**
+* Engineered with **Sri Lankan soul & global standards**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ⚙️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+* **Frontend:** React • TypeScript • Tailwind CSS
+* **Backend:** Node.js • Express (API‑ready)
+* **Styling:** Custom luxury design system
+* **Hosting:** AWS (API Gateway, Route53) • Spaceship DNS
+* **Integrations:** OTA platforms, POS, CRM modules
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+* Visit **/about** for the mission and ecosystem overview.
+* Edit content in `src/pages/AboutPage.tsx` and `src/components/AboutSection.tsx`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📦 Project Structure (key)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+/ public             # Static assets (logos, images)
+/ src
+  /components        # UI components (Header, Footer, Sections)
+  /pages             # Routes (Index, About, Products, etc.)
+  /lib               # Helpers & utilities
+index.html           # Metadata & page title
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📩 Contact
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+**Beddle Hub** — Empowering hospitality, one brand at a time.
 
-## How can I deploy this project?
+* Email: [info@beddlehub.com](mailto:info@beddlehub.com)
+* Web: [https://www.beddlehub.com](https://www.beddlehub.com)
 
-Simply open [Lovable](https://lovable.dev/projects/4c958549-64ac-49d3-bc1e-5a1497aa9af7) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+### License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Proprietary © Beddle Hub. All rights reserved.
